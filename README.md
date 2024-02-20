@@ -2,7 +2,7 @@
 <!-- Animation Typing -->
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1100&width=500&lines=I'm+Reece+Asoloko+Sabo;I'm+a+DevOps+Engineer+/+SRE;"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1100&width=500&lines=I'm+Reece+Asoloko+Sabo;I'm+a+DevOps+Engineer/Technical+Specialist;"></a>
 </p>
 
 <!-- Animation Typing: END -->

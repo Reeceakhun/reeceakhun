@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Reeceakhun/Reeceakhun/main/assets/banner" width="100%">
+</p>
+
 <h2 align="center">Hello <img src="https://user-images.githubusercontent.com/74038190/214644145-264f4759-7633-441e-9d67-d8dda9d50d26.gif" width="30px"></h2>
 
 <!-- Animation Typing -->

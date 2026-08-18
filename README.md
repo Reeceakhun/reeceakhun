@@ -6,7 +6,7 @@
 
 <!-- Animation Typing -->
 <p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1100&width=500&lines=I'm+Reece+Asoloko+Sabo;I'm+a+DevOps+Engineer/Technical+Specialist;"></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1100&width=500&lines=I'm+Reece+Asoloko+Sabo;I'm+a+DevOps+Engineer/Technical+Specialist;Ask+me+about+OIDC+and+Workload+Identity"></a>
 </p>
 <!-- Animation Typing: END -->
 
@@ -16,6 +16,9 @@
   </a>
   <a href="https://www.credly.com/users/reece-asoloko-sabo/badges">
     <img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" />
+  </a>
+  <a href="mailto:reeceakhun@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
@@ -33,10 +36,21 @@ I'd rather understand *why* something broke than just get it passing. When a rol
 | [aks-ephemeral-infra](https://github.com/Reeceakhun/aks-ephemeral-infra) | Separate infra repo that provisions short-lived AKS clusters on request (via cross-repo trigger) and tears them down automatically via a scheduled reaper — OIDC-authenticated, no stored credentials. |
 | [reece-project](https://github.com/Reeceakhun/reece-project) | Terraform provisioning a private GKE cluster on GCP (VPC, node pool, scoped service account, Artifact Registry), with nginx deployed via Helm. |
 
-## 🛠 Stack
+## 🔧 Languages & Tools
 
-**Cloud:** GCP · Azure
-**IaC:** Terraform
-**Containers & Orchestration:** Docker · Kubernetes · Helm
-**CI/CD:** GitHub Actions · Jenkins
-**Other:** Kubernetes OIDC/Workload Identity, Cloud NAT, Artifact Registry
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=gcp,azure,terraform,docker,kubernetes,jenkins,git,github,linux,bash" />
+</p>
+
+**Other:** Kubernetes OIDC/Workload Identity · Cloud NAT · Artifact Registry · Helm · GitHub Actions
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Reeceakhun&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Reeceakhun&theme=tokyonight&hide_border=true" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Reeceakhun&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+</p>

@@ -2,24 +2,34 @@ name: Update streak stats
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # runs daily at 03:00 UTC
+    - cron: "0 3 * * *"
   push:
     paths:
-      - ".github/workflows/streak-stats.yml"  # also runs if you edit this file
-  workflow_dispatch: {}    # lets you trigger it manually from the Actions tab
+      - ".github/workflows/streak-stats.yml"
+  workflow_dispatch:
 
 jobs:
   update-streak-stats:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
+
     steps:
-      - name: Generate streak stats image
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          user_id: Reeceakhun
-          exclude_days: ""
-          theme: tokyonight
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}ls
-          
+          options: user=Reeceakhun&theme=tokyonight
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit streak stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg
+          git commit -m "Update streak stats" || exit 0
+          git push

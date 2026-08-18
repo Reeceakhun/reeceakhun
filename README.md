@@ -45,12 +45,6 @@ I'd rather understand *why* something broke than just get it passing. When a rol
 **Other:** Kubernetes OIDC/Workload Identity · Cloud NAT · Artifact Registry · Helm · GitHub Actions
 
 ## 📊 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Reeceakhun&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Reeceakhun&theme=tokyonight&hide_border=true" width="48%" />
-</p>
-
 <p align="center">
   <img src="./profile/streak.svg" alt="GitHub Streak" width="48%" />
 </p>

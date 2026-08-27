@@ -32,6 +32,10 @@ I'd rather understand *why* something broke than just get it passing. When a rol
 
 | Project | What it shows |
 |---|---|
+| [tf-aks-multienv-infra](https://github.com/Reeceakhun/tf-aks-multienv-infra) | Terraform-managed AKS across dev/staging/prod with approval-gated promotion, tfsec + gitleaks + Conftest policy checks, Infracost cost gating, a TTL-based reaper with structural prod opt-out, and scheduled drift detection. |
+| [ci-cd-flask-k8s-pipeline](https://github.com/Reeceakhun/ci-cd-flask-k8s-pipeline) | 3-stage GitHub Actions pipeline: test → build & push a Docker image → deploy to an ephemeral Kubernetes cluster. Includes a Jenkins-equivalent pipeline. |
+| [aks-ephemeral-infra](https://github.com/Reeceakhun/aks-ephemeral-infra) | Separate infra repo that provisions short-lived AKS clusters on request (via cross-repo trigger) and tears them down automatically via a scheduled reaper — OIDC-authenticated, no stored credentials. |
+| [reece-project](https://github.com/Reeceakhun/reece-project) | Terraform provisioning a private GKE cluster on GCP (VPC, node pool, scoped service account, Artifact Registry), with nginx deployed via Helm. |
 | [ci-cd-flask-k8s-pipeline](https://github.com/Reeceakhun/ci-cd-flask-k8s-pipeline) | 3-stage GitHub Actions pipeline: test → build & push a Docker image → deploy to an ephemeral Kubernetes cluster. Includes a Jenkins-equivalent pipeline. |
 | [aks-ephemeral-infra](https://github.com/Reeceakhun/aks-ephemeral-infra) | Separate infra repo that provisions short-lived AKS clusters on request (via cross-repo trigger) and tears them down automatically via a scheduled reaper — OIDC-authenticated, no stored credentials. |
 | [reece-project](https://github.com/Reeceakhun/reece-project) | Terraform provisioning a private GKE cluster on GCP (VPC, node pool, scoped service account, Artifact Registry), with nginx deployed via Helm. |

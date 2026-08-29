@@ -40,7 +40,7 @@ I'd rather understand *why* something broke than just get it passing. When a rol
 | [aks-ephemeral-infra](https://github.com/Reeceakhun/aks-ephemeral-infra) | Separate infra repo that provisions short-lived AKS clusters on request (via cross-repo trigger) and tears them down automatically via a scheduled reaper — OIDC-authenticated, no stored credentials. |
 | [reece-project](https://github.com/Reeceakhun/reece-project) | Terraform provisioning a private GKE cluster on GCP (VPC, node pool, scoped service account, Artifact Registry), with nginx deployed via Helm. |
 
-## 🔧 Languages & Tools
+## 🔧 Tools
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=gcp,azure,terraform,docker,kubernetes,jenkins,git,github,linux,bash" />
